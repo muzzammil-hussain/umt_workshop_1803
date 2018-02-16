@@ -1,16 +1,15 @@
 # Simple Flask, Expressjs and Reactjs Demo
 
-This repo is created to give an overview about basics of backend frameworks Flask which is written in Python, Expressjs which is written in Nodejs and frontend library React. We created a small REST API in Flask and Expressjs which serves same json data. And frontend React uses it without any changes expect API URL.
+This repo is created to give an overview about basics of backend frameworks Flask which is written in Python, Expressjs which is written in Nodejs and frontend library React. We created a small REST API in Flask and Expressjs which serves same json data. And frontend React uses it without any changes except API URL.
 
 This repo is made for **UMT Lahore workshop** happening in March, 2018
 
 ## Prerequisites
 
-You should have following this installed in order to run these apps.
+You should have following things installed in order to run these apps.
 
  - Python 3.6+
  - Nodejs 8.x.x LTS
- - Linux or Mac operating system.
 
 ## How to install/run Flask App
 
