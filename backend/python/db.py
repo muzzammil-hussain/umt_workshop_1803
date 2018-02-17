@@ -15,7 +15,7 @@ class DB(object):
 
 		for record in self.database:
 			if record["dept"] not in depts:
-				depts.add(record["dept"])
+				depts.append(record["dept"])
 
 		return depts
 
