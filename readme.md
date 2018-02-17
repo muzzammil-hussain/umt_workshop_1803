@@ -29,3 +29,7 @@ You should have following things installed in order to run these apps.
 
 ## How to install/run Reactjs App
 TBD
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
