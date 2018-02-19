@@ -38,23 +38,14 @@ Both API's serves same data with same endpoints, except their URL which will be:
    
    #### 127.0.0.1:[3000|5000]/depts/
    
-
-
-----------
 This endpoint will return all the departments present in database.
 
    #### 127.0.0.1:[3000|5000]/all/
    
-
-
-----------
 This endpoint will return all the data present in database.
 
    #### 127.0.0.1:[3000|5000]/search/:attrib/:value/
    
-
-
-----------
 This endpoint will search database with given parameters. For example we want to search all records with departement name "Support" then:
 
     127.0.0.1:[3000|5000]/search/depts/support/
@@ -69,9 +60,6 @@ Other possible usage senarions could be
 
    #### 127.0.0.1:[3000|5000]/view/:id/
    
-
-
-----------
 This endpoint will return single record by searching for id.
 
 
