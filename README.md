@@ -28,7 +28,11 @@ You should have following things installed in order to run these apps.
  5. If everything works, your server will start at `127.0.0.1:4000`
 
 ## How to install/run Reactjs App
-TBD
+ 1. Go to /frontend
+ 2. On terminal run commands
+ 3.  `npm install`
+ 4. `npm start`
+ 5. If everything works, your frontend changes will available at `127.0.0.1:3000`
 
 ## Flash/Expressjs API Usage
 Both API's serves same data with same endpoints, except their URL which will be:
