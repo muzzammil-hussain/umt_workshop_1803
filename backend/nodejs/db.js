@@ -35,7 +35,8 @@ module.exports = {
 				data.push({
 					"id": database[index]["id"],
 					"first_name": database[index]["first_name"],
-					"last_name": database[index]["last_name"]
+					"last_name": database[index]["last_name"],
+					"avatar": database[index]["avatar"]
 				})
 			}
 		}
