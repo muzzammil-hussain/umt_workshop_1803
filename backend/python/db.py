@@ -42,7 +42,8 @@ class DB(object):
 				data.append({
 					"id": record["id"],
 					"first_name": record["first_name"],
-					"last_name": record["last_name"]
+					"last_name": record["last_name"],
+					"avatar": record["avatar"]
 				})
 
 		return data
