@@ -31,11 +31,8 @@ class DB(object):
 
 		return data
 
-	def search(self, attrib, value):
+	def filter(self, attrib, value):
 		data = []
-
-		if attrib == "id":
-			value = int(value)
 
 		for record in self.database:
 			if record[attrib] == value:

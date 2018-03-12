@@ -48,19 +48,15 @@ This endpoint will return all the departments present in database.
    
 This endpoint will return all the data present in database.
 
-   #### 127.0.0.1:[4000|5000]/search/:attrib/:value/
+   #### 127.0.0.1:[4000|5000]/filter/:attrib/:value/
    
-This endpoint will search database with given parameters. For example we want to search all records with departement name "Support" then:
+This endpoint will filter database with given parameters. For example we want to filter all records with departement name "Support" then:
 
-    127.0.0.1:[4000|5000]/search/depts/support/
+    127.0.0.1:[4000|5000]/filter/depts/Support/
 
-Other possible usage senarions could be
+Other possible usage senarions could be filtering Male/Female members.
 
-    127.0.0.1:[4000|5000]/search/id/1/
-    127.0.0.1:[4000|5000]/search/first_name/Hart/
-    127.0.0.1:[4000|5000]/search/last_name/Bemand/
-    127.0.0.1:[4000|5000]/search/email/hbemand1@wp.com/
-    127.0.0.1:[4000|5000]/search/gender/Male/
+    127.0.0.1:[4000|5000]/filter/gender/Male/
 
    #### 127.0.0.1:[4000|5000]/view/:id/
    

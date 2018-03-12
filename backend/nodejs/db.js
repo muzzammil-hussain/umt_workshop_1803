@@ -27,7 +27,7 @@ module.exports = {
     	return data;
 	},
 
-	search: function (attrib, value) {
+	filter: function (attrib, value) {
 		data = []
 
 		for (var index in database){

@@ -12,9 +12,9 @@ def all_depts():
 def all_records():
     return jsonify(db.all())
 
-@app.route("/search/<attrib>/<value>/")
-def search_json(attrib, value):
-    return jsonify(db.search(attrib, value))
+@app.route("/filter/<attrib>/<value>/")
+def filter_records(attrib, value):
+    return jsonify(db.filter(attrib, value))
 
 @app.route("/view/<int:id>/")
 def view_profile(id):

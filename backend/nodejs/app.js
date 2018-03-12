@@ -16,8 +16,8 @@ app.get("/all/", function(req, res) {
     res.status(200).send(db.all());
 })
 
-app.get("/search/:attrib/:value/", function(req, res) {
-    res.status(200).send(db.search(req.params.attrib, req.params.value));
+app.get("/filter/:attrib/:value/", function(req, res) {
+    res.status(200).send(db.filter(req.params.attrib, req.params.value));
 })
 
 app.get("/view/:id/", function(req, res) {
