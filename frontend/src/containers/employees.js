@@ -21,7 +21,7 @@ class Employees extends Component {
             departments: []
         });
 
-        fetch(HOST_NAME + '/search/dept/' + this.deptName )
+        fetch(HOST_NAME + '/filter/dept/' + this.deptName )
             .then(response => response.json())
             .then(parsedJSON => parsedJSON.map(employee => (
                 employee
