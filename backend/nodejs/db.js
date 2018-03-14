@@ -36,6 +36,7 @@ module.exports = {
 	// 				"id": database[index]["id"],
 	// 				"first_name": database[index]["first_name"],
 	// 				"last_name": database[index]["last_name"],
+	// 				"gender": database[index]["gender"],
 	// 				"avatar": database[index]["avatar"]
 	// 			})
 	// 		}

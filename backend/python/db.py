@@ -40,6 +40,7 @@ class DB(object):
 	# 				"id": record["id"],
 	# 				"first_name": record["first_name"],
 	# 				"last_name": record["last_name"],
+	#				"gender": record["gender"],
 	# 				"avatar": record["avatar"]
 	# 			})
 
