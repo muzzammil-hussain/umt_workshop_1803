@@ -14,7 +14,7 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <div>
-                    {/*<Nav/>*/}
+                    <Nav/>
                     <div className="container">
                         <div className="row">
                             <main role="main" className="col-md-10 offset-md-1">

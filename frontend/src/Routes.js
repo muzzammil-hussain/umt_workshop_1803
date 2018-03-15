@@ -9,10 +9,10 @@ import EmpolyeeDetail from './containers/empolyeeDetail';
 
 const Routes = () => (
     <Switch>
-        {/*<Route exact path="/" component={Departments}/>*/}
-        {/*<Route path="/about" component={About}/>*/}
-        {/*<Route path="/dept/:name" component={Empolyees}/>*/}
-        {/*<Route path="/employee/:id" component={EmpolyeeDetail}/>*/}
+        <Route exact path="/" component={Departments}/>
+        <Route path="/about" component={About}/>
+        <Route path="/dept/:name" component={Empolyees}/>
+        <Route path="/employee/:id" component={EmpolyeeDetail}/>
     </Switch>
 );
 

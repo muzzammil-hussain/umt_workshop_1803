@@ -38,14 +38,14 @@ class Employees extends Component {
             <div>
                 <h1 className="p-3">Employees</h1>
                 <div className="card-columns">
-                    {/*{this.state.employees.map((e, i) =>*/}
-                        {/*<Card key={i}*/}
-                              {/*title={e.first_name + " " + e.last_name}*/}
-                              {/*text={"Empolyee ID : " + e.id}*/}
-                              {/*imageUrl = {e.avatar}*/}
-                              {/*link = {"/employee/" + e.id}*/}
-                        {/*/>*/}
-                    {/*)}*/}
+                    {this.state.employees.map((e, i) =>
+                        <Card key={i}
+                              title={e.first_name + " " + e.last_name}
+                              text={"Empolyee ID : " + e.id}
+                              imageUrl = {e.avatar}
+                              link = {"/employee/" + e.id}
+                        />
+                    )}
                 </div>
             </div>
         )
