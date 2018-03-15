@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/__pycache__
 
 # testing
 /coverage
@@ -19,3 +20,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+	../backend/nodejs/node_modules/
+	../backend/nodejs/package-lock.json
+	../backend/python/__pycache__/
+	../backend/python/umt_py3/

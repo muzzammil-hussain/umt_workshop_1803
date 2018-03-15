@@ -35,7 +35,7 @@ class EmployeeDetail extends Component {
             <div>
                 <h1 className="p-3">Employee Detail</h1>
                 <div className="card-columns">
-                    <DetailCard data={this.state.employeeDetail}/>
+                    {/*<DetailCard data={this.state.employeeDetail}/>*/}
                 </div>
             </div>
         )
