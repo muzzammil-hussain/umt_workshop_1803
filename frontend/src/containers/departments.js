@@ -41,9 +41,9 @@ class Departments extends Component {
             <div>
                 <h1 className="p-3">Departments</h1>
                 <div className="card-columns">
-                    {/*{this.state.departments.map((e, i) =>*/}
-                        {/*<Card key={i} title={e.name} link={"/dept/" + e.name}/>*/}
-                    {/*)}*/}
+                    {this.state.departments.map((e, i) =>
+                        <Card key={i} title={e.name} link={"/dept/" + e.name}/>
+                    )}
                 </div>
             </div>
         )
