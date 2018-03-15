@@ -34,6 +34,8 @@ You should have following things installed in order to run these apps.
  4. `npm start`
  5. If everything works, your frontend changes will available at `127.0.0.1:3000`
 
+ In /frontend/src/Routes.js you can switch between backend API by changing value for variable HOST_NAME
+
 ## Flash/Expressjs API Usage
 Both API's serves same data with same endpoints, except their URL which will be:
 
