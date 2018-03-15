@@ -10,46 +10,44 @@ class DB(object):
 		    self.database = json.load(json_data)
 
 
-	# def depts(self):
-	# 	depts = []
+	def depts(self):
+		depts = []
 
-	# 	for record in self.database:
-	# 		if record["dept"] not in depts:
-	# 			depts.append(record["dept"])
+		for record in self.database:
+			if record["dept"] not in depts:
+				depts.append(record["dept"])
 
-	# 	return depts
+		return depts
 
-	# def all(self):
-	# 	data = []
+	def all(self):
+		data = []
 
-	# 	for record in self.database:
-	# 		data.append({
-	# 			"id": record["id"],
-	# 			"first_name": record["first_name"],
-	# 			"last_name": record["last_name"]
-	# 		})
+		for record in self.database:
+			data.append({
+				"id": record["id"],
+				"first_name": record["first_name"],
+				"last_name": record["last_name"]
+			})
 
-	# 	return data
+		return data
 
-	# def filter(self, attrib, value):
-	# 	data = []
+	def filter(self, attrib, value):
+		data = []
 
-	# 	for record in self.database:
-	# 		if record[attrib] == value:
-	# 			data.append({
-	# 				"id": record["id"],
-	# 				"first_name": record["first_name"],
-	# 				"last_name": record["last_name"],
-	#				"gender": record["gender"],
-	# 				"avatar": record["avatar"]
-	# 			})
+		for record in self.database:
+			if record[attrib] == value:
+				data.append({
+					"id": record["id"],
+					"first_name": record["first_name"],
+					"last_name": record["last_name"],
+					"gender": record["gender"],
+					"avatar": record["avatar"]
+				})
 
-	# 	return data
+		return data
 
 
-	# def view(self, id):
-	# 	for record in self.database:
-	# 		if record["id"] == id:
-	# 			return record
-
-				
+	def view(self, id):
+		for record in self.database:
+			if record["id"] == id:
+				return record
